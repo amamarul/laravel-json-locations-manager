@@ -13,5 +13,5 @@ return [
          * Routes
          */
         'prefix' => 'translations',
-        'middlewares' => ['web','auth'],
+        'middlewares' => ['web'],
 ];
