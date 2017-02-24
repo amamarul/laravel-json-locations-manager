@@ -6,7 +6,7 @@
         <form action="{{route('amamarul.translations.lang.newLang')}}" class="form-horizontal" method="GET" onSubmit="if(!confirm('{{__('Are you sure you want to create a new string?')}}')){return false;}">
             <div class="col-xs-6">
                 <div class="form-group">
-                    <input type="text" class="form-control" name="newLang" id="new-lang" placeholder="__('lang code Ex. es')">
+                    <input type="text" class="form-control" name="newLang" id="new-lang" placeholder="{{__('lang code Ex. es')}}">
                 </div>
             </div>
             <div class="col-xs-6">
