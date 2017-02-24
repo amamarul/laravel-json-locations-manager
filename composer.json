@@ -1,0 +1,22 @@
+{
+  "name": "amamarul/laravel-json-locations-manager",
+  "type": "package",
+  "description": "Laravel Json Locations Manager. Import all app language strings from lang folder",
+  "keywords": ["laravel","laravel 5.4","Laravel Json Locations Manager", "Laravel 5.4 Localization Using Translation Strings As Keys"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maru Amallo",
+      "email": "ama_marul@hotmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4": {
+      "LaravelJsonLocationsManagerSpace": "src/"
+    }
+  },
+  "config": {
+      "preferred-install": "dist"
+  }
+}
